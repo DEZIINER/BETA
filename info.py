@@ -65,8 +65,8 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/SL_Bots_Updates")
 
 # stream features vars
 F2LINK_C = int(environ.get("F2LINK_C", "-1001696019751"))
-ON_DWNLD = environ.get("ON_DWNLD", "https://han-testing-ae53073db0ca.herokuapp.com")
-ON_WATCH = environ.get("ON_WATCH", "https://han-testing-ae53073db0ca.herokuapp.com")
+ON_DWNLD = environ.get("ON_DWNLD", "han-testing-ae53073db0ca.herokuapp.com")
+ON_WATCH = environ.get("ON_WATCH", "han-testing-ae53073db0ca.herokuapp.com")
                            
 # Log
 LOG_STR = "Current Cusomized Configurations are:-\n"
