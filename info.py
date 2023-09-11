@@ -45,9 +45,9 @@ UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/MYFLiiX_2')
 AUTO_FILTER = is_enabled((environ.get('AUTO_FILTER', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SPELL_CHECK = is_enabled(environ.get("SPELL_CHECK", "True"), True)
-SHORTLINK = is_enabled((environ.get('SHORTLINK', "True")), True)
-AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "False")), False)
-WELCOME = is_enabled((environ.get('WELCOME', "False")), False)
+SHORTLINK = is_enabled((environ.get('SHORTLINK', "False")), False)
+AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
+WELCOME = is_enabled((environ.get('WELCOME', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 LINK_MODE = is_enabled(environ.get("LINK_MODE", "True"), True)
@@ -65,8 +65,8 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/SL_Bots_Updates")
 
 # stream features vars
 F2LINK_C = int(environ.get("F2LINK_C", "-1001696019751"))
-ON_DWNLD = environ.get("ON_DWNLD", "han-testing-ae53073db0ca.herokuapp.com")
-ON_WATCH = environ.get("ON_WATCH", "han-testing-ae53073db0ca.herokuapp.com")
+ON_DWNLD = environ.get("ON_DWNLD", "https://han-testing-ae53073db0ca.herokuapp.com/")
+ON_WATCH = environ.get("ON_WATCH", "https://han-testing-ae53073db0ca.herokuapp.com/")
                            
 # Log
 LOG_STR = "Current Cusomized Configurations are:-\n"
